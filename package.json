@@ -1,6 +1,6 @@
 {
   "name": "colombiadev-salary-visualization",
-  "homepage": "http://jaimegarcia.github.io/colombia-salary-viz-2021",
+  "homepage": "https://jaimegarcia.github.io/colombia-salary-viz-2021",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
