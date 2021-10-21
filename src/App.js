@@ -9,13 +9,7 @@ import salaryFile from './dataprocess/data/salaries-proccesed.csv';
 //let salaryData=null;
 
 const maxSalary = 1000000000;
-const englishLevels = [
-  'Ninguno',
-  'Básico (puede leer documentación y código en inglés)',
-  'Intermedio (puede pasar una entrevista de programación en ingles cómodamente)',
-  'Avanzado (puede liderar una reunion de varias personas en ingles cómodamente)',
-  'Nativo',
-];
+const englishLevels = ['Ninguno', 'Básico', 'Intermedio', 'Avanzado', 'Nativo'];
 const educationTitles = [
   'Ninguno',
   'Bachiller',
@@ -116,7 +110,7 @@ function App() {
       </h3>
 
       {!loading && (
-        <Box>
+        <Box style={{ padding: 4 }}>
           <br />
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
