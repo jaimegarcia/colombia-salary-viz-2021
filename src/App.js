@@ -8,7 +8,7 @@ import './App.css';
 import salaryFile from './dataprocess/data/salaries-proccesed.csv';
 //let salaryData=null;
 
-const maxSalary = 1000;
+const maxSalary = 1000000000;
 const englishLevels = [
   'Ninguno',
   'Básico (puede leer documentación y código en inglés)',
@@ -54,6 +54,7 @@ function App() {
       };
     })
       .then((csv) => {
+        console.log(csv);
         setSalaryData(csv);
         setLoading(false);
       })
@@ -77,7 +78,7 @@ function App() {
     if (salaryData) {
       let newSalaryData = salaryData.map((d) => {
         d['income-cop'] =
-          d['currency'] === 'pesos'
+          d['currency'] === 'Pesos'
             ? d['income-in-currency'] / 1e6
             : (d['income-in-currency'] * filters.exchangeRate) / 1e6;
         return d;
@@ -105,12 +106,12 @@ function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography className="title" variant="h6">
-            Visualización de Salarios de Desarrolladores Colombianos 2020
+            Visualización de Salarios de Desarrolladores Colombianos 2021
           </Typography>
         </Toolbar>
       </AppBar>
       <h3>
-        Hecho por Jaime García. Datos: Encuesta de Colombia Dev 2021 (1,703
+        Hecho por Jaime García. Datos: Encuesta de Colombia Dev 2021 (1,188
         personas)
       </h3>
 
@@ -152,7 +153,7 @@ function App() {
                 variable="max-title"
                 updateChart={updateChart}
                 min={0}
-                defaultValue={2}
+                defaultValue={4}
                 max={7}
                 step={1}
                 ordinalScale={educationTitles}
