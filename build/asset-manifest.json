@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/colombia-salary-viz-2021/static/css/main.b538ed4a.chunk.css",
+    "main.js": "/colombia-salary-viz-2021/static/js/main.2c7cf3c6.chunk.js",
+    "main.js.map": "/colombia-salary-viz-2021/static/js/main.2c7cf3c6.chunk.js.map",
+    "runtime-main.js": "/colombia-salary-viz-2021/static/js/runtime-main.b567f2c5.js",
+    "runtime-main.js.map": "/colombia-salary-viz-2021/static/js/runtime-main.b567f2c5.js.map",
+    "static/js/2.1867a099.chunk.js": "/colombia-salary-viz-2021/static/js/2.1867a099.chunk.js",
+    "static/js/2.1867a099.chunk.js.map": "/colombia-salary-viz-2021/static/js/2.1867a099.chunk.js.map",
+    "index.html": "/colombia-salary-viz-2021/index.html",
+    "static/css/main.b538ed4a.chunk.css.map": "/colombia-salary-viz-2021/static/css/main.b538ed4a.chunk.css.map",
+    "static/js/2.1867a099.chunk.js.LICENSE.txt": "/colombia-salary-viz-2021/static/js/2.1867a099.chunk.js.LICENSE.txt",
+    "static/media/salaries-proccesed.fcc07f86.csv": "/colombia-salary-viz-2021/static/media/salaries-proccesed.fcc07f86.csv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b567f2c5.js",
+    "static/js/2.1867a099.chunk.js",
+    "static/css/main.b538ed4a.chunk.css",
+    "static/js/main.2c7cf3c6.chunk.js"
+  ]
+}
