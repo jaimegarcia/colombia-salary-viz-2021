@@ -110,7 +110,7 @@ function App() {
       </h3>
 
       {!loading && (
-        <Box style={{ padding: 4 }}>
+        <Box style={{ padding: 16 }}>
           <br />
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
