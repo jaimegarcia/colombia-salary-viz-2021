@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  @media (min-width: 900px) and (orientation: landscape) {
+    overflow: hidden;
+  }
 }
 
 code {
