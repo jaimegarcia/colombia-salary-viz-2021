@@ -118,9 +118,9 @@ function App() {
               <Slider
                 variable="exchangeRate"
                 updateChart={updateChart}
-                min={4000}
-                defaultValue={4806}
-                max={6000}
+                min={3500}
+                defaultValue={4200}
+                max={5500}
                 step={10}
               />
               <b>¿Cuántos años de experiencia tienes?</b>
